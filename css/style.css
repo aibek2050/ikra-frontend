@@ -88,7 +88,41 @@ h6 {
   padding: 8px 16px;
 }
 .nav-text:hover {
-    border: none;
-    background-color: #87e7ff;
-    color: #413ead;
+  border: none;
+  background-color: #87e7ff;
+  color: #413ead;
+}
+
+/* Footer */
+#footer {
+  background-color: #fef36c;
+}
+.dark-logo {
+  width: 80px;
+}
+#footer a {
+  text-decoration: none;
+}
+.effect-underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.media-icon {
+  font-size: 32px;
+  color: #000;
 }
