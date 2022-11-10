@@ -1,12 +1,21 @@
 @media (max-width: 768px) {
-    .logo-text {
-        font-size: 9px;
-    }
+  .logo-text {
+    font-size: 9px;
+  }
   .main-text {
     font-size: 48px;
     margin-top: 75px;
   }
   .sub-main-text {
     margin: 50px 0;
+  }
+  .section_1 {
+    padding: 25px 0;
+  }
+  .section_1 h1 {
+    font-size: 48px;
+  }
+  .section_1 h5 {
+    display: none;
   }
 }
